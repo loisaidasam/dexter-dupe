@@ -1,28 +1,24 @@
-/*
- * Metadata describing the module operation
- */
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From",
-            "type":"string"
+            "id": "input",
+            "title": "Input",
+            "type": "string"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From",
-            "type":"array"
+            "id": "output1",
+            "title":"Output 1",
+            "type":"string"
+        },
+        {
+            "id": "output2",
+            "title":"Output 2",
+            "type":"string"
         }
-      */
     ],
-    "title": "dupe" /* Required.A display name for the module */
+    "title": "dupe"
 }
